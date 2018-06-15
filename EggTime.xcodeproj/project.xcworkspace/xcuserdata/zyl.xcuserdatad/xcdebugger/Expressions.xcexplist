@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.timeupdater.updateTime(totalTime:):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "EggTimer.isStopped():EggTimer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "totalTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PrefsViewController.viewDidLoad():PrefsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "EggTimer.prefTime">
+            </PersistentString>
+            <PersistentString
+               value = "viewController.eggTimer">
+            </PersistentString>
+            <PersistentString
+               value = "selectTime / 60 / 1000">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.resetBtnClicked(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "EggTimer.prefTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PrefsViewController.okBtnClicked(_:):PrefsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "popUpMenu.selectedItem?.tag">
+            </PersistentString>
+            <PersistentString
+               value = "selectTime">
+            </PersistentString>
+            <PersistentString
+               value = "EggTimer.prefTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.imgToDisplay(totalTime:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "EggTimer.prefTime">
+            </PersistentString>
+            <PersistentString
+               value = "eggTimer.totalTime / EggTimer.prefTime ">
+            </PersistentString>
+            <PersistentString
+               value = "eggTimer.totalTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

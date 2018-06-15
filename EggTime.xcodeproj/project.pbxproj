@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		365F916F20CF942A0035B150 /* PrefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F916E20CF942A0035B150 /* PrefViewController.swift */; };
+		365F917120CF97DD0035B150 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F917020CF97DD0035B150 /* PrefsViewController.swift */; };
+		365F917520CFB18D0035B150 /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F917420CFB18D0035B150 /* EggTimer.swift */; };
+		36B0DD7E20D2336200D8FF85 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B0DD7D20D2336200D8FF85 /* Preference.swift */; };
 		36DD6EC120CF6E1C0056BBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DD6EC020CF6E1C0056BBFE /* AppDelegate.swift */; };
 		36DD6EC320CF6E1C0056BBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DD6EC220CF6E1C0056BBFE /* ViewController.swift */; };
 		36DD6EC520CF6E1E0056BBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DD6EC420CF6E1E0056BBFE /* Assets.xcassets */; };
@@ -34,7 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		365F916E20CF942A0035B150 /* PrefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefViewController.swift; sourceTree = "<group>"; };
+		365F917020CF97DD0035B150 /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		365F917420CFB18D0035B150 /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
+		36B0DD7D20D2336200D8FF85 /* Preference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
 		36DD6EBD20CF6E1C0056BBFE /* EggTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DD6EC020CF6E1C0056BBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36DD6EC220CF6E1C0056BBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		365F917220CFB1290035B150 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				365F917020CF97DD0035B150 /* PrefsViewController.swift */,
+				36DD6EC220CF6E1C0056BBFE /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		365F917320CFB1590035B150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				365F917420CFB18D0035B150 /* EggTimer.swift */,
+				36B0DD7D20D2336200D8FF85 /* Preference.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		36DD6EB420CF6E1C0056BBFE = {
 			isa = PBXGroup;
 			children = (
@@ -98,9 +120,9 @@
 		36DD6EBF20CF6E1C0056BBFE /* EggTime */ = {
 			isa = PBXGroup;
 			children = (
+				365F917320CFB1590035B150 /* Model */,
+				365F917220CFB1290035B150 /* View Controllers */,
 				36DD6EC020CF6E1C0056BBFE /* AppDelegate.swift */,
-				36DD6EC220CF6E1C0056BBFE /* ViewController.swift */,
-				365F916E20CF942A0035B150 /* PrefViewController.swift */,
 				36DD6EC420CF6E1E0056BBFE /* Assets.xcassets */,
 				36DD6EC620CF6E1E0056BBFE /* Main.storyboard */,
 				36DD6EC920CF6E1E0056BBFE /* Info.plist */,
@@ -257,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B0DD7E20D2336200D8FF85 /* Preference.swift in Sources */,
 				36DD6EC320CF6E1C0056BBFE /* ViewController.swift in Sources */,
+				365F917520CFB18D0035B150 /* EggTimer.swift in Sources */,
+				365F917120CF97DD0035B150 /* PrefsViewController.swift in Sources */,
 				36DD6EC120CF6E1C0056BBFE /* AppDelegate.swift in Sources */,
-				365F916F20CF942A0035B150 /* PrefViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

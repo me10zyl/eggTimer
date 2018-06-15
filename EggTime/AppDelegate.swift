@@ -23,6 +23,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
+    
+    func enableMenus(start: Bool, stop: Bool, reset: Bool) {
+        startMenuItem.isEnabled = start
+        endMenuItem.isEnabled = stop
+        resetMenuItem.isEnabled = reset
+    }
 
 
 }
